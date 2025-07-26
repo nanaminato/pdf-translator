@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Translator", "PDF Translator\PDF Translator.csproj", "{94BECE46-6889-4017-9EB7-8E492AD156BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Translate Layout Lib", "PDF Translate Layout Lib\PDF Translate Layout Lib.csproj", "{94D94FC5-7B57-4120-A060-17B4BED28508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Translator Utils", "PDF Translator Utils\PDF Translator Utils.csproj", "{3F09B09F-5598-4E8C-895D-75044FC603EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semantic Processor", "Semantic Processor\Semantic Processor.csproj", "{E3702B23-F561-456F-85E0-601C76588624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94BECE46-6889-4017-9EB7-8E492AD156BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BECE46-6889-4017-9EB7-8E492AD156BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BECE46-6889-4017-9EB7-8E492AD156BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BECE46-6889-4017-9EB7-8E492AD156BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D94FC5-7B57-4120-A060-17B4BED28508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D94FC5-7B57-4120-A060-17B4BED28508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D94FC5-7B57-4120-A060-17B4BED28508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D94FC5-7B57-4120-A060-17B4BED28508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F09B09F-5598-4E8C-895D-75044FC603EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F09B09F-5598-4E8C-895D-75044FC603EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F09B09F-5598-4E8C-895D-75044FC603EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F09B09F-5598-4E8C-895D-75044FC603EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3702B23-F561-456F-85E0-601C76588624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3702B23-F561-456F-85E0-601C76588624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3702B23-F561-456F-85E0-601C76588624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3702B23-F561-456F-85E0-601C76588624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
