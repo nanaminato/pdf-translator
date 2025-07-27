@@ -2,9 +2,21 @@
 
 public class HtmlLayout
 {
+    /*
+     * html 对应pdf的页的id
+     */
     public int PageId { get; set; }
+    /*
+     * 该页的宽度
+     */
     public double Width { get; set; }
+    /*
+     * 该页的高度
+     */
     public double Height { get; set; }
+    /*
+     * 该页中子元素的详细布局
+     */
     public List<Layout> Children { get; set; } = [];
     public override string ToString()
     {

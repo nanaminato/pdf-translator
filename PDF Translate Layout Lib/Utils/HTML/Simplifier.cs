@@ -5,6 +5,9 @@ namespace PDF_Translate_Layout_Lib.Utils.HTML;
 
 public abstract class Simplifier
 {
+    /*
+     * 简化处理时使用的html文本
+     */
     public static SimplifyResult Simplify(string htmlContent)
     {
         var result = new SimplifyResult();

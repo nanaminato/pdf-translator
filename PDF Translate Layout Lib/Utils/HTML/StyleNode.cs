@@ -6,7 +6,7 @@ public class StyleNode
 {
     // comment: 样式表的规则比较利于查询和构建，不会既包含样式又包含子样式定义
     private IDictionary<string, string>? _styles;
-    public const string OriginHead = "style";// 最外层的样式,一般不适用这个Node进行查询样式，或者构建样式
+    public const string OriginHead = "style";// 最外层的样式,一般不使用这个Node进行查询样式，或者构建样式
     private List<StyleNode>? _nodes;
     public bool HasBuild;
     private string? _styleText;

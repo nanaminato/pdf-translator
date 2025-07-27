@@ -3,6 +3,9 @@ using PDF_Translate_Layout_Lib.Models.HTMLLayout;
 
 namespace PDF_Translate_Layout_Lib.Utils.Load;
 
+/*
+ * 用于加载自动或手动导出的html的元素布局文件
+ */
 public class HtmlLayoutLoader
 {
     public static async Task<HtmlLayoutWorkspace?> LoadWorkSpaceFromFile(string path)

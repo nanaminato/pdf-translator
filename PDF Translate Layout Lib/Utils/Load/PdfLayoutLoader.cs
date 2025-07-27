@@ -3,6 +3,9 @@ using PDF_Translate_Layout_Lib.Models.PDFLayout;
 
 namespace PDF_Translate_Layout_Lib.Utils.Load;
 
+/*
+ * 用于加载用户导出的pdf的内容次序流
+ */
 public class PdfLayoutLoader
 {
     public static async Task<PdfLayoutWorkspace?> LoadWorkSpaceFromFile(string path)
