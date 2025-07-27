@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PDF Translator Utils\PDF Translator Utils.csproj" />
+      <ProjectReference Include="..\PDF Translate Layout Lib\PDF Translate Layout Lib.csproj" />
     </ItemGroup>
 
 </Project>
